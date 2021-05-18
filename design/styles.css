@@ -1,0 +1,26 @@
+html,
+body,
+.container {
+  background-color: white;
+  font-family: "Source Sans Pro", "Arial", "Helvetica", "Geneva", sans-serif;
+}
+
+.form__top-header {
+  margin-top: 0;
+}
+
+.form-row {
+  display: flex;
+  align-items: baseline;
+  padding: 0 0 1rem 0;
+}
+
+.form-row__input {
+  width: 180px;
+  margin-right: 1rem;
+}
+
+.form-row__input--wide {
+  width: 420px;
+  margin-right: 1rem !important;
+}

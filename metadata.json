@@ -1,0 +1,19 @@
+{
+  "id": "0c2a2b8b-bd93-483a-a420-618f4ac268ab",
+  "schemaVersion": 2,
+  "name": "Video Player",
+  "description": "",
+  "baseQuestionType": "InfoForm",
+  "disableDefaultRendering": true,
+  "iconUrl": "design/icon.svg",
+  "designEntryPoint": "design/index.html",
+  "runtimeEntryPoint": {
+    "component": "runtime/loader.js",
+    "deps": {
+      "scripts": [],
+      "styles": [
+        "runtime/loader.css"
+      ]
+    }
+  }
+}
